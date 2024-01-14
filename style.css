@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 .card-style {
   transition: all 0.5s ease-out;
   border-style: none;
@@ -33,4 +39,8 @@
 .thick-hr {
   height: 1rem;
   background-color: rgb(150, 150, 150);
+}
+
+.btn-style {
+  border-radius: 2rem;
 }
